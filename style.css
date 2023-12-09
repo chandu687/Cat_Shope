@@ -1,0 +1,100 @@
+
+:root {
+    --pink:#e5345b;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary{
+    background-color: var(--pink)!important;
+}
+.nav-link:hover {
+    color :var(--pink)!important;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+
+.btn:not(.nav-btns button) {
+    color: rgb(85,85,85);
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 25px; 
+}    
+
+.btn:not(.nav-btns button):hover{
+    background-color: var(--pink);
+    color: #fff;
+}
+
+/* header */
+
+#header {
+    background: url(./images/pexels-juan-mendez-1536619.jpg) top/cover no-repeat;
+}
+
+.carousel-inner h1 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* 
+.header-1 {
+    background: url(./images/2.png) top/cover no-repeat;
+} */
+
+
+/* collection */
+
+.active-filter-btn {
+    background-color: var(--pink)!important;
+    border: var(--pink)!important;
+    color: #fff !important;
+}
+
+.collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.text-primary {
+    color: var(--pink)!important;
+}
+
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.special img{
+    width: 500px;
+    height: 550px;
+}
+
+.sale-img img {
+    width: 332px;
+    height: 439px;
+}
+
+.texta {
+    font-family: 'Times New Roman', Times, serif;
+}
